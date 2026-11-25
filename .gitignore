@@ -1,0 +1,80 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+build/
+**/build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Uploaded files and logs
+server/uploads/
+uploads/
+*.log
+npm-debug.log*
+
+# Archives
+*.zip
+
+# Tool-specific folders
+.agents/
+.claude/
+.windsurf/
+server/.agents/
+server/.claude/
+server/.windsurf/
+
+# Coverage
+coverage/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Generated Prisma client
+server/src/generated/
+
+# Local uploads
+server/uploads/
